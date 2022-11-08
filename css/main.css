@@ -74,15 +74,15 @@ h1.logo >a >svg >path{color: #FFF;}
 .topMenu:hover>.topMenu_inner{color: #000;}
 
 
-.topMenu_inner>li a img{position: absolute; top: 18px;right: 140px; width: 86px; height: 26px;  }
+.topMenu_inner>ul a img{position: absolute; top: 18px;right: 140px; width: 86px; height: 26px;  }
 .topMenu_inner>a{color: #fff;}
 
-.topMenu_inner>li:nth-child(2){position: absolute; top: 30px; right: 70px;font-style: 'Roboto', sans-serif;  
+.topMenu_inner>ul:nth-child(2){position: absolute; top: 30px; right: 70px;font-style: 'Roboto', sans-serif;  
      font-weight: bold;}
-.topMenu_inner>li:active >ul{position: absolute;  top: 34px; width: 50px;color: #000;background: #FFF;  
+.topMenu_inner>ul:active >li{position: absolute;  top: 34px; width: 50px;color: #000;background: #FFF;  
      opacity: 1; padding: 31px;  }
 
-.topMenu_inner>li>ul{ opacity:0 ;}
+.topMenu_inner>ul>li{ opacity:0 ;}
 
 .topMenu_inner>.info{position: absolute; top: 22px; right: 0;}
 
@@ -100,25 +100,25 @@ h1.logo >a >svg >path{color: #FFF;}
 
  .banner_frame>section>div>h3 video{max-width: 1523px; height: 934px;}
 
-.banner_frame>section>div>li{position: absolute; top: 600px; width: 100%; 
+.banner_frame>section>div>ul{position: absolute; top: 600px; width: 100%; 
     font-size: 20px; 
      color: #fff; list-style: none; }
 
 
 
 
-.banner_frame>section>div>li:nth-of-type(1){position: absolute;top: 575px;padding: 0 0 0 190px ;
+.banner_frame>section>div>ul:nth-of-type(1){position: absolute;top: 575px;padding: 0 0 0 190px ;
      font-style: 'Roboto', sans-serif;  font-weight: bold; font-size: 18px; }
 
-.banner_frame>section:nth-of-type(2)>div>li:nth-of-type(1){font-size: 64px;
+.banner_frame>section:nth-of-type(2)>div>ul:nth-of-type(1){font-size: 64px;
      position: absolute;top: 525px;padding: 0 0 0 195px ; letter-spacing: -5px;}
 .banner_frame>section:nth-of-type(2)>div>li:nth-of-type(2){position: absolute;top: 625px;padding: 0 0 0 200px ;
      font-style: 'Roboto', sans-serif;  font-weight: bold; font-size: 18px; }
 
 
-.banner_frame>section:nth-of-type(3)>div>li:nth-of-type(1){font-size: 64px;
+.banner_frame>section:nth-of-type(3)>div>ul:nth-of-type(1){font-size: 64px;
       position: absolute;top: 474px;padding: 0 0 0 200px ; letter-spacing: -5px;}
-.banner_frame>section:nth-of-type(3)>div>li:nth-of-type(2){position: absolute;top: 575px;padding: 0 0 0 205px ;
+.banner_frame>section:nth-of-type(3)>div>ul:nth-of-type(2){position: absolute;top: 575px;padding: 0 0 0 205px ;
           font-style: 'Roboto', sans-serif;  font-weight: bold; font-size: 18px; }
 
 
@@ -162,45 +162,45 @@ p a img{z-index: 100; position: absolute; top: 595px; right: 20px; width: 110px;
 #container>.content1>section{position: relative; height: 721px; list-style: none;}
 #container>.content1>section>span img{width: 100%;  }
 
-#container>.content1>section>div>li:nth-of-type(2) a{
+#container>.content1>section>div>ul:nth-of-type(2) a{
      position: absolute;left: 190px;top: 520px; display: block; width: 105px; height: 52px;
           border: 1px solid #000; box-sizing: border-box;font-size: 16px; color: #000; font-weight: bold;
           text-align: center; line-height: 50px; }
-#container>.content1>section>div>li:nth-of-type(2) a:hover{ color: #FFF;
+#container>.content1>section>div>ul:nth-of-type(2) a:hover{ color: #FFF;
      border-color: transparent;background: blue;animation: ani 0.6s cubic-bezier(0.87, 0.02, 0, 0.97) 0.2s; }
-#container>.content1>section>div>li:nth-of-type(2) a::before{content: "";width: 100%; height: 100%; 
+#container>.content1>section>div>ul:nth-of-type(2) a::before{content: "";width: 100%; height: 100%; 
                                             background: blue; transform: scaleX(0);}
 
 
-#container>.content1>section:nth-of-type(4)>div>li:nth-of-type(2) a{
+#container>.content1>section:nth-of-type(4)>div>ul:nth-of-type(2) a{
      position: absolute;left: 190px;top: 560px; display: block; width: 105px; height: 52px;
           border: 1px solid #000; box-sizing: border-box;font-size: 16px; color: #000; font-weight: bold;
           text-align: center; line-height: 50px; }
-#container>.content1>section:nth-of-type(4)>div>li:nth-of-type(2) a:hover{color: #FFF;
+#container>.content1>section:nth-of-type(4)>div>ul:nth-of-type(2) a:hover{color: #FFF;
      border-color: transparent;background: blue;animation: ani 0.6s cubic-bezier(0.87, 0.02, 0, 0.97) 0.2s; }
-#container>.content1>section>div>li:nth-of-type(2) a::before{content: "";width: 100%; height: 100%; 
+#container>.content1>section>div>ul:nth-of-type(2) a::before{content: "";width: 100%; height: 100%; 
                                             background: blue; transform: scaleX(0);}
 
 
 #container>.content1>section:nth-of-type(1)>div>h3{ font-weight: bold;font-size: 45px; letter-spacing: -3px;line-height: 1.4;
      position: absolute; top: 210px; left: 190px;}
-#container>.content1>section:nth-of-type(1)>div>li:nth-of-type(1){font-size: 17px;font-weight: 400;
+#container>.content1>section:nth-of-type(1)>div>ul:nth-of-type(1){font-size: 17px;font-weight: 400;
       position: absolute; top: 410px;left: 190px;line-height: 1.6;}
 
 
 #container>.content1>section:nth-of-type(2)>div>h3{ font-weight: bold;font-size: 45px; letter-spacing: -3px;line-height: 1.4;
      position: absolute; top: 210px; left: 190px;}
-#container>.content1>section:nth-of-type(2)>div>li:nth-of-type(1){ffont-size: 17px;font-weight: 400;
+#container>.content1>section:nth-of-type(2)>div>ul:nth-of-type(1){ffont-size: 17px;font-weight: 400;
      position: absolute; top: 410px;left: 190px;line-height: 1.6;}
 
 #container>.content1>section:nth-of-type(3)>div>h3{ font-weight: bold;font-size: 45px; letter-spacing: -3px;line-height: 1.4;
      position: absolute; top: 210px; left: 190px;}
-#container>.content1>section:nth-of-type(3)>div>li:nth-of-type(1){font-size: 17px;font-weight: 400;
+#container>.content1>section:nth-of-type(3)>div>ul:nth-of-type(1){font-size: 17px;font-weight: 400;
      position: absolute; top: 410px;left: 190px;line-height: 1.6;}
 
 #container>.content1>section:nth-of-type(4)>div>h3{ font-weight: bold;font-size: 45px; letter-spacing: -3px;line-height: 1.4;
      position: absolute; top: 210px; left: 190px;}
-#container>.content1>section:nth-of-type(4)>div>li:nth-of-type(1){font-size: 17px;font-weight: 400;
+#container>.content1>section:nth-of-type(4)>div>ul:nth-of-type(1){font-size: 17px;font-weight: 400;
      position: absolute; top: 475px;left: 190px;line-height: 1.6;}
 
 
@@ -334,7 +334,7 @@ p a img{z-index: 100; position: absolute; top: 595px; right: 20px; width: 110px;
 .content5>section:nth-of-type(3)>div{position: absolute; top: 670px; left: 1140px;width: 130px; height: 110px;opacity: 0.6;}
 
 .content5>section>div>p{font-size: 30px; font-weight: bold;z-index: 25; }
-.content5>section>div>li{ font-weight: 500;position: absolute; top: 60px;}
+.content5>section>div>ul{ font-weight: 500;position: absolute; top: 60px;}
 
 .content5>section>div:hover>p{border-bottom: solid 3px #fff;  transform-origin: 0% 50%; }
 .content5>section:nth-of-type(2)>div:hover{opacity: 1;}
