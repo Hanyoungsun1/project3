@@ -46,7 +46,7 @@ h1.logo >a >svg >path{color: #FFF;}
 
 
 /*탑메뉴 */
-.topMenu{position: relative; z-index: 90; display: block; Width: 100%; height: 63px;font-style: 'Roboto', sans-serif;  
+.topMenu{position: relative; z-index: 90; display: block; Width: 100%; height: 63px;font-family: 'Roboto', sans-serif;  
      font-weight: bold; }
 .topMenu:hover{ background: #fff;   box-shadow: 0 1px #ccc; } 
 .topMenu:hover a{color: #000;}
@@ -77,7 +77,7 @@ h1.logo >a >svg >path{color: #FFF;}
 .topMenu_inner>ul a img{position: absolute; top: 18px;right: 140px; width: 86px; height: 26px;  }
 .topMenu_inner>a{color: #fff;}
 
-.topMenu_inner>ul:nth-child(2){position: absolute; top: 30px; right: 70px;font-style: 'Roboto', sans-serif;  
+.topMenu_inner>ul:nth-child(2){position: absolute; top: 30px; right: 70px;font-family: 'Roboto', sans-serif;  
      font-weight: bold;}
 .topMenu_inner>ul:active >li{position: absolute;  top: 34px; width: 50px;color: #000;background: #FFF;  
      opacity: 1; padding: 31px;  }
@@ -108,18 +108,18 @@ h1.logo >a >svg >path{color: #FFF;}
 
 
 .banner_frame>section>div>ul:nth-of-type(1){position: absolute;top: 575px;padding: 0 0 0 190px ;
-     font-style: 'Roboto', sans-serif;  font-weight: bold; font-size: 18px; }
+     font-family: 'Roboto', sans-serif;  font-weight: bold; font-size: 18px; }
 
 .banner_frame>section:nth-of-type(2)>div>ul:nth-of-type(1){font-size: 64px;
      position: absolute;top: 525px;padding: 0 0 0 195px ; letter-spacing: -5px;}
 .banner_frame>section:nth-of-type(2)>div>li:nth-of-type(2){position: absolute;top: 625px;padding: 0 0 0 200px ;
-     font-style: 'Roboto', sans-serif;  font-weight: bold; font-size: 18px; }
+     font-family: 'Roboto', sans-serif;  font-weight: bold; font-size: 18px; }
 
 
 .banner_frame>section:nth-of-type(3)>div>ul:nth-of-type(1){font-size: 64px;
       position: absolute;top: 474px;padding: 0 0 0 200px ; letter-spacing: -5px;}
 .banner_frame>section:nth-of-type(3)>div>ul:nth-of-type(2){position: absolute;top: 575px;padding: 0 0 0 205px ;
-          font-style: 'Roboto', sans-serif;  font-weight: bold; font-size: 18px; }
+          font-family: 'Roboto', sans-serif;  font-weight: bold; font-size: 18px; }
 
 
 /* 버튼 */     
@@ -190,7 +190,7 @@ p a img{z-index: 100; position: absolute; top: 595px; right: 20px; width: 110px;
 
 #container>.content1>section:nth-of-type(2)>div>h3{ font-weight: bold;font-size: 45px; letter-spacing: -3px;line-height: 1.4;
      position: absolute; top: 210px; left: 190px;}
-#container>.content1>section:nth-of-type(2)>div>ul:nth-of-type(1){ffont-size: 17px;font-weight: 400;
+#container>.content1>section:nth-of-type(2)>div>ul:nth-of-type(1){font-size: 17px;font-weight: 400;
      position: absolute; top: 410px;left: 190px;line-height: 1.6;}
 
 #container>.content1>section:nth-of-type(3)>div>h3{ font-weight: bold;font-size: 45px; letter-spacing: -3px;line-height: 1.4;
@@ -405,7 +405,7 @@ p a img{z-index: 100; position: absolute; top: 595px; right: 20px; width: 110px;
 #footer>.footinner_1>p{font-size: 14px; color: #54565B; margin: 5px;}
 
 #footer>.footinner_1>ul{display: flex;}
-#footer>.footinner_1>ul>li a{color: #000; font-style: 14px; font-weight: bold; margin: 10px 5px 10px 0;}
+#footer>.footinner_1>ul>li a{color: #000; font-size: 14px; font-weight: bold; margin: 10px 5px 10px 0;}
 #footer>.footinner_1>ul:nth-of-type(2)>li a{width: 24px; height: 24px; color: #000;
       font-size: 14px; font-weight: bold; margin: 10px 5px 10px 0;}
 
