@@ -12,7 +12,7 @@ a{text-decoration: none;}
   #header{ width: 100%; height: 328px; position: relative; display: flex;}
      .header_wrap{width: 100%; position: absolute;}
        .header_inner{width: 100%; position: absolute;}
-  .banner{width: 100%; height: 938px; }
+  .banner{max-width:959px; height: 938px; }
   #container{width: 100%;height: 12431px;position: relative; top: -490px; overflow: hidden;} 
        .content1 {height: 3608px;}
        .content2{height: 2340px;}
@@ -38,10 +38,13 @@ h1.logo {z-index: 500; position: absolute;  width: 134px; height: 20px; top: 22p
 
 /*배너  */
 
-.banner{max-width:1193px; height: 1080px; position: relative; left:0px; top:-350px; overflow: hidden; } 
+.banner{max-width:959px;height: 1080px; position: relative; left:0px; top:-350px; overflow: hidden; } 
 .banner>.banner_inner{ width: 300%;}
 .banner>.banner_inner>div{width: 33.333%;position: relative; color: #fff;float: left;}
-.banner>.banner_inner>div>h3 video{height: 938px;}
+.banner>.banner_inner>div:nth-of-type(1)>h3{ }
+.banner>.banner_inner>div>h3 video{position: absolute;left: -490px;}
+.banner>.banner_inner>div:nth-of-type(2){display: none;}
+.banner>.banner_inner>div:nth-of-type(3){display: none;}
 
 .banner>.banner_inner>div:nth-of-type(1)>ul:nth-of-type(1){position: absolute;top: 640px; left:45px;
      font-weight:700;  font-size: 18px; }
@@ -119,7 +122,7 @@ h1.logo {z-index: 500; position: absolute;  width: 134px; height: 20px; top: 22p
      font-family: "Roboto", "NotoSans", sans-serif;}
 
 .content2>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-             position: absolute; top: 110px; right: 45px;}
+             position: absolute; top: 110px; left: 860px;}
 .content2>p a{color: #000;  }
 .content2>p i{transition:  0.2s ease-in 0s;}
 .content2>p:hover{background: #000;}
@@ -159,7 +162,7 @@ h1.logo {z-index: 500; position: absolute;  width: 134px; height: 20px; top: 22p
 .content3>h3{font-size: 66px; font-weight: bold; position: absolute; top: 80px; left: 45px;  }
 
 .content3>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute; top: 110px; right: 45px;}
+     position: absolute; top: 110px; left: 860px;}
 .content3>p a{color: #000;  }
 .content3>p i{transition:  0.2s ease-in 0s;}
 .content3>p:hover{background: #000;}
@@ -219,7 +222,7 @@ h1.logo {z-index: 500; position: absolute;  width: 134px; height: 20px; top: 22p
      border-bottom: 1.5px solid #bbb; padding-bottom: 25px;}
 
 .content4>.qna>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute;top: 90px; right: 45px;}
+     position: absolute;top: 90px;  left: 850px;}
 .content4>.qna>p a{color: #000;  }
 .content4>.qna>p i{transition:  0.2s ease-in 0s;}
 .content4>.qna>p:hover{background: #000;}
@@ -258,7 +261,7 @@ h1.logo {z-index: 500; position: absolute;  width: 134px; height: 20px; top: 22p
 .content5>h3{font-size: 66px; font-weight: bold; position: absolute; top: 80px; left: 45px; }
 
 .content5>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute; top: 110px; right: 45px;}
+     position: absolute; top: 110px;  left: 860px;}
 .content5>p a{color: #000;  }
 .content5>p i{transition:  0.2s ease-in 0s;}
 .content5>p:hover{background: #000;}
@@ -310,7 +313,7 @@ h1.logo {z-index: 500; position: absolute;  width: 134px; height: 20px; top: 22p
 .content7>h3{font-size: 66px; font-weight: bold; position: absolute; top: 100px; left: 45px; }
 
 .content7>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute; top: 110px; right: 45px;}
+     position: absolute; top: 110px;  left: 860px;}
 .content7>p a{color: #000;  }
 .content7>p i{transition:  0.2s ease-in 0s;}
 .content7>p:hover{background: #000;}
@@ -319,11 +322,11 @@ h1.logo {z-index: 500; position: absolute;  width: 134px; height: 20px; top: 22p
 
 .content7>article{ width: 413px; height: 414px;overflow: hidden;}
 .content7>article:nth-of-type(1){position: absolute; top: 230px; left: 45px;}
-.content7>article:nth-of-type(2){position: absolute; top: 230px; right: 45px;}
+.content7>article:nth-of-type(2){position: absolute; top: 230px; left: 485px;}
 .content7>article:nth-of-type(3){ position: absolute; top: 663px; left:45px; }
-.content7>article:nth-of-type(4){width: 413px; height: 493px; position: absolute; top: 663px;right: 45px;}
+.content7>article:nth-of-type(4){width: 413px; height: 493px; position: absolute; top: 663px; left: 485px;}
 .content7>article:nth-of-type(5){ position: absolute; top: 1096px; left: 45px;}
-.content7>article:nth-of-type(6){ position: absolute; top: 1175px; right: 45px;}
+.content7>article:nth-of-type(6){ position: absolute; top: 1175px;  left: 485px;}
 
 .content7>article>a i{ font-size: 26px;z-index: 100; font-weight: 500; color: #fff;
                     position: absolute; top: 287px; left: 293px;}
@@ -364,10 +367,12 @@ h1.logo {z-index: 500; position: absolute;  width: 134px; height: 20px; top: 22p
 
 #footer>.footinner_2>dl>dd{display: none;}
 
-#footer>p{position: absolute; top: 50px; right: 45px; background: #000; width: 40px; height: 40px; 
+#footer>p{position: absolute; top: 50px; left: 860px; background: #000; width: 40px; height: 40px; 
       text-align: center; line-height: 40px;  }
 #footer>p a{color: #fff;}
 #footer>p:hover{transition: background 0.3s ease-in 0s; background: blue;}
+
+#footer>.top.on{display: block;}
 
 #footer>dl{position: absolute; top: 620px; left: 45px;}
 #footer>dl>.family_site i{font-size: 15px;position: absolute; right: 0; top: 15px;}
@@ -393,7 +398,7 @@ h1.logo {z-index: 500; position: absolute;  width: 134px; height: 20px; top: 22p
   #header{ width: 100%; height: 328px; position: relative; display: flex;}
      .header_wrap{width: 100%; position: absolute;}
        .header_inner{width: 100%; position: absolute;}
-  .banner{width: 100%; height: 938px; }
+  .banner{max-width:1193px; height: 938px; }
   #container{width: 100%;height: 8962px;position: relative; top: -355px;}
        .content1 {height: 3608px; overflow: hidden;}
        .content2{height: 796px;overflow: hidden;}
@@ -426,7 +431,7 @@ div.topMenu{position: relative; z-index: 100; display: block; Width: 100%; heigh
 .topMenu>ul>li:hover{border-bottom: 3px solid #000;}
 
 
-.topMenu_inner{ display: flex;width: 250px; height: 38px;   position: absolute; right: 25px;
+.topMenu_inner{ display: flex;width: 250px; height: 38px;   position: absolute; left: 900px;
       padding: 10px; 
      justify-content: center; list-style: none;}
 .topMenu:hover>.topMenu_inner>ul{color: #000;}
@@ -503,7 +508,9 @@ div.header_wrap.onB{ height: 328px;}
 .banner{max-width:1193px; height: 1080px; position: relative; left:0px; top:-350px; overflow: hidden; } 
 .banner>.banner_inner{ width: 300%;}
 .banner>.banner_inner>div{width: 33.333%;position: relative; color: #fff;float: left;}
-.banner>.banner_inner>div>h3 video{height: 938px;}
+.banner>.banner_inner>div>h3 video{position: absolute;left: -350px;}
+.banner>.banner_inner>div:nth-of-type(2){display: none;}
+.banner>.banner_inner>div:nth-of-type(3){display: none;}
 
 .banner>.banner_inner>div:nth-of-type(1)>ul:nth-of-type(1){position: absolute;top: 640px; left:45px;
      font-weight:700;  font-size: 18px; }
@@ -580,7 +587,7 @@ div.header_wrap.onB{ height: 328px;}
      font-family: "Roboto", "NotoSans", sans-serif;}
 
 .content2>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-             position: absolute; top: 110px; right: 45px;}
+             position: absolute; top: 110px; left: 1090px;}
 .content2>p a{color: #000;  }
 .content2>p i{transition:  0.2s ease-in 0s;}
 .content2>p:hover{background: #000;}
@@ -622,7 +629,7 @@ div.header_wrap.onB{ height: 328px;}
 .content3>h3{font-size: 66px; font-weight: bold; position: absolute; top: 80px; left: 45px;  }
 
 .content3>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute; top: 110px; right: 45px;}
+     position: absolute; top: 110px;  left: 1090px;}
 .content3>p a{color: #000;  }
 .content3>p i{transition:  0.2s ease-in 0s;}
 .content3>p:hover{background: #000;}
@@ -663,7 +670,7 @@ div.header_wrap.onB{ height: 328px;}
 .content4>.career>h3{font-size: 66px; font-weight: bold;border-bottom: 1.5px solid #bbb; padding: 30px 0 25px 0;}
 
 .content4>.career>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute; top: 90px; right: 0;}
+     position: absolute; top: 90px;  left: 1045px;}
 .content4>.career>p a{color: #000;  }
 .content4>.career>p i{transition:  0.2s ease-in 0s;}
 .content4>.career>p:hover{background: #000;}
@@ -685,7 +692,7 @@ div.header_wrap.onB{ height: 328px;}
      border-bottom: 1.5px solid #bbb; padding-bottom: 25px;}
 
 .content4>.qna>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute;top: 90px; right: 45px;}
+     position: absolute;top: 90px;  left: 1090px;}
 .content4>.qna>p a{color: #000;  }
 .content4>.qna>p i{transition:  0.2s ease-in 0s;}
 .content4>.qna>p:hover{background: #000;}
@@ -724,7 +731,7 @@ div.header_wrap.onB{ height: 328px;}
 .content5>h3{font-size: 66px; font-weight: bold; position: absolute; top: 80px; left: 45px; }
 
 .content5>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute; top: 110px; right: 45px;}
+     position: absolute; top: 110px;  left: 1090px;}
 .content5>p a{color: #000;  }
 .content5>p i{transition:  0.2s ease-in 0s;}
 .content5>p:hover{background: #000;}
@@ -776,7 +783,7 @@ div.header_wrap.onB{ height: 328px;}
 .content7>h3{font-size: 66px; font-weight: bold; position: absolute; top: 100px; left: 45px; }
 
 .content7>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute; top: 110px; right: 45px;}
+     position: absolute; top: 110px;  left: 1090px;}
 .content7>p a{color: #000;  }
 .content7>p i{transition:  0.2s ease-in 0s;}
 .content7>p:hover{background: #000;}
@@ -786,10 +793,10 @@ div.header_wrap.onB{ height: 328px;}
 .content7>article{ width: 322px; height: 323px;overflow: hidden;}
 .content7>article:nth-of-type(1){position: absolute; top: 230px; left: 45px;}
 .content7>article:nth-of-type(2){position: absolute; top: 230px; left: 425px; }
-.content7>article:nth-of-type(3){ position: absolute; top: 230px; right: 45px; }
+.content7>article:nth-of-type(3){ position: absolute; top: 230px; left: 805px; }
 .content7>article:nth-of-type(4){width: 322px; height: 402px; position: absolute; top: 620px; left: 45px;}
 .content7>article:nth-of-type(5){ position: absolute; top: 620px; left: 425px;}
-.content7>article:nth-of-type(6){ position: absolute; top: 620px; right: 45px;}
+.content7>article:nth-of-type(6){ position: absolute; top: 620px; left: 805px;}
 
 .content7>article>a i{ font-size: 26px;z-index: 100; font-weight: 500; color: #fff;
                     position: absolute; top: 287px; left: 293px;}
@@ -835,12 +842,14 @@ div.header_wrap.onB{ height: 328px;}
 #footer>.footinner_2>dl>dd{margin-bottom: 7px;}
 #footer>.footinner_2>dl>dd a{color: #54565B; }
 
-#footer>p{position: absolute; top: 50px; right: 45px; background: #000; width: 40px; height: 40px; 
+#footer>p{position: absolute; top: 50px;  left: 1090px; background: #000; width: 40px; height: 40px; 
       text-align: center; line-height: 40px;  }
 #footer>p a{color: #fff;}
 #footer>p:hover{transition: background 0.3s ease-in 0s; background: blue;}
 
-#footer>dl{position: absolute; top: 350px; right: 45px;}
+#footer>.top.on{display: block;}
+
+#footer>dl{position: absolute; top: 350px;  left: 920px;}
 #footer>dl>.family_site i{font-size: 14px;position: absolute; right: 0; top: 15px;}
 #footer>dl>.family_site{ width: 210px; font-size: 14px;color: #000;
              border-bottom: 1px solid rgba(16, 24, 32, 0.4); padding: 10px 0;}
@@ -898,14 +907,14 @@ div.topMenu{position: relative; z-index: 100; display: block; Width: 100%; heigh
 
 .topMenu>ul>li:hover{border-bottom: 3px solid #000;}
 
-.topMenu_inner{ display: flex;width: 250px; height: 38px;   position: absolute; right: 240px;
+.topMenu_inner{ display: flex;width: 250px; height: 38px;   position: absolute; left: 1390px;
       padding: 10px; 
      justify-content: center; list-style: none;}
 .topMenu:hover>.topMenu_inner>ul{color: #000;}
 
 .topMenu_inner>ul a img{position: absolute; top: 18px;right: 170px; width: 86px; height: 26px;  }
 
-.topMenu_inner>ul:nth-child(2){position: absolute; top: 25px; right: 90px;  font-weight: bold;
+.topMenu_inner>ul:nth-child(2){position: absolute; top: 23px; right: 90px;  font-weight: bold;
       font-size: 15px; color: #fff; }
 
 .topMenu_inner>ul >li{position: absolute;  top: 38px;left: -30px; width: 50px;color: #54565B;
@@ -915,7 +924,7 @@ div.topMenu{position: relative; z-index: 100; display: block; Width: 100%; heigh
 
 .topMenu_inner>ul >li:hover{color: #000;}
 
-.topMenu_inner>.info{position: absolute; top: 22px; right: 30px;}
+.topMenu_inner>.info{position: absolute; top: 22px; left: 220px;}
 .topMenu_inner>.info a{color: #fff;}
 .topMenu:hover>.topMenu_inner>.info a{color: #000;}
 .topMenu_inner>.info>.btn_srch>a i{ font-size: 20px;}
@@ -923,12 +932,11 @@ div.topMenu{position: relative; z-index: 100; display: block; Width: 100%; heigh
 
 /* 주메뉴 */
 div.header_wrap{top: 0; background-color:  #fff; width: 100%; height:63px; display: inline;}
-div.header_wrap.onA{ height: 126px;}
-div.header_wrap.onB{ height: 328px;}
+div.header_wrap.on{background-color:  #fff; }
 
 .topMenu>ul>li:hover>ul{opacity: 1;}
 
-.topMenu>ul>li>ul{position: absolute; top: 63px; opacity: 0;}
+.topMenu>ul>li>ul{position: absolute; top: 63px; opacity: 0; display: none;}
 .topMenu>ul>li:nth-of-type(1)>ul{left: 110px;}
 .topMenu>ul>li:nth-of-type(2)>ul{left: 70px; }
 .topMenu>ul>li:nth-of-type(3)>ul{left: 350px; }
@@ -1052,7 +1060,7 @@ div.header_wrap.onB{ height: 328px;}
      font-family: "Roboto", "NotoSans", sans-serif;}
 
 .content2>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-             position: absolute; top: 110px; right: 385px;}
+             position: absolute; top: 110px;left: 1487px;}
 .content2>p a{color: #000;  }
 .content2>p i{transition:  0.2s ease-in 0s;}
 .content2>p:hover{background: #000;}
@@ -1094,7 +1102,7 @@ div.header_wrap.onB{ height: 328px;}
 .content3>h3{font-size: 66px; font-weight: bold; position: absolute; top: 80px; left: 385px;  }
 
 .content3>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute; top: 110px; right: 385px;}
+     position: absolute; top: 110px; left: 1487px;}
 .content3>p a{color: #000;  }
 .content3>p i{transition:  0.2s ease-in 0s;}
 .content3>p:hover{background: #000;}
@@ -1196,7 +1204,7 @@ div.header_wrap.onB{ height: 328px;}
 .content5>h3{font-size: 66px; font-weight: bold; position: absolute; top: 80px; left: 385px; }
 
 .content5>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute; top: 110px; right: 385px;}
+     position: absolute; top: 110px; left: 1487px;}
 .content5>p a{color: #000;  }
 .content5>p i{transition:  0.2s ease-in 0s;}
 .content5>p:hover{background: #000;}
@@ -1248,7 +1256,7 @@ div.header_wrap.onB{ height: 328px;}
 .content7>h3{font-size: 66px; font-weight: bold; position: absolute; top: 100px; left: 385px; }
 
 .content7>p{display: inline;font-size: 18px; border: solid 1px #000; padding: 5px 8px;
-     position: absolute; top: 125px; right: 390px;}
+     position: absolute; top: 125px;left: 1487px;}
 .content7>p a{color: #000;  }
 .content7>p i{transition:  0.2s ease-in 0s;}
 .content7>p:hover{background: #000;}
@@ -1307,12 +1315,14 @@ div.header_wrap.onB{ height: 328px;}
 #footer>.footinner_2>dl>dd{margin-bottom: 7px;}
 #footer>.footinner_2>dl>dd a{color: #54565B; }
 
-#footer>p{position: absolute; top: 50px; right: 270px; background: #000; width: 40px; height: 40px; 
+#footer>p{position: absolute; top: 50px;left: 1590px; background: #000; width: 40px; height: 40px; 
       text-align: center; line-height: 40px;  }
 #footer>p a{color: #fff;}
 #footer>p:hover{transition: background 0.3s ease-in 0s; background: blue;}
 
-#footer>dl{position: absolute; top: 350px; right: 270px;}
+#footer>.top.on{display: block;}
+
+#footer>dl{position: absolute; top: 350px; left: 1430px;}
 #footer>dl>.family_site i{font-size: 14px;position: absolute; right: 0; top: 15px;}
 #footer>dl>.family_site{ width: 210px; font-size: 14px;color: #000;
              border-bottom: 1px solid rgba(16, 24, 32, 0.4); padding: 10px 0;}
